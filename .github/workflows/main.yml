@@ -68,7 +68,16 @@ jobs:
 
         node app.js
 
-        echo "AplicaÃ§Ã£o executada com sucesso!"        
+        echo "AplicaÃ§Ã£o executada com sucesso!"
+
+        name: 4.5. Executando testes automatizados
+
+    run: |
+
+        echo " Iniciando bateria de testes..."
+
+        node test.js
+
 
     - name: 5. Mensagem de sucesso
 
